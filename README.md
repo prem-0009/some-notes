@@ -2,7 +2,7 @@
 
 * Add a new note
 * Display the notes
-* Store the notes
+* Store the notes--future goal
 
   
 ___
