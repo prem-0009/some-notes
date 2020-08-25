@@ -1,15 +1,9 @@
 const notesBtn = document.querySelector('.notes-btn');
 const notesBody = document.querySelector('.notes-body')
 
-// const myCloseB = document.querySelector('.my-close');
-// const myNotesB = document.querySelector('.my-notes-body');
-
-
 const myContainer = document.querySelector('.my-container');
 
-
 const arr = [];
-
 
 
 notesBtn.addEventListener('click', function(){
@@ -42,20 +36,12 @@ notesBtn.addEventListener('click', function(){
     createMyNotes.append(createBody)
 
     //delete
-    // const btnClose = document.querySelector('.my-close')
     createCloseBtn.addEventListener('click', function(){
         myContainer.removeChild(createMyNotes)
     })
     
-
-
-    
     notesBody.value = '';
 
-    const hi = document.querySelectorAll('.my-notes-body')
-    
-
-    console.log(hi)
 })
 
 
